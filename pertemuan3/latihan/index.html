@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pemesanan Tiket Travel</title>
+</head>
+<body>
+    
+    <h2>Form Pemesanan</h2>
+    <form action="">
+        <label for="NIK">NIK : </label>
+        <input type="number" name="NIK" placeholder="Masukan NIK Anda" required>
+        
+        <br>
+        <label for="nama">Nama : </label>
+        <input type="text" id="nama" placeholder="Masukan nama Anda" required>
+
+        <br>
+        <label for="email">Email : </label>
+        <input type="email" id="email" placeholder="Masukan email Anda" required>
+
+        <br>
+        <label for="Telp">Telpon : </label>
+        <input type="tel" id="Telp" name="Telp" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+
+        <br>
+        <p>Rute : </p>
+        <select name="pilihan">
+            <option value="1">JKT-BDG</option>
+            <option value="2">BDG-YK</option>
+            <option value="3">YK-SBY</option>
+        </select>
+
+        <br>
+        <label for="Tgl">Tanggal Keberangkatan : </label>
+        <input type="date" name="Tgl">
+
+        <br>
+        <p>Waktu Keberangkatan : </p>
+        <select name="pilihan">
+            <option value="1">08-10</option>
+            <option value="2">13-15</option>
+            <option value="3">20-22</option>
+        </select>
+
+        <br>
+        <label for="num">Jumlah : </label>
+        <input type="number" id="num" min="1" max="10">
+
+        <br>
+        <p>Metode Pembayaran : </p>
+        <select name="pilihan">
+            <option value="1">Gopay</option>
+            <option value="2">Dana</option>
+            <option value="3">BRI</option>
+            <option value="4">BCA</option>
+            <option value="5">MANDIRI</option>
+            <option value="6">BNI</option>
+        </select>
+
+
+        <br>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+h1 {
+    color: bisque;
+    text-align: center;
+}
+
+p {
+    color: blue;
+    background-color: bisque;
+}
+
+h3, h4, h5 {
+    color: coral;
+    background-color: blueviolet;
+}
+
+#p1 {
+    background-color: darkcyan;
+}
+
+.p3 {
+    background-color: indigo;
+}
